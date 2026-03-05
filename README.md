@@ -1,15 +1,14 @@
-# 🤖 HireDesk — AI Resume Matcher
+# HireDesk — AI Resume Matcher
 
 HireDesk is an AI-powered resume screening tool that ranks resumes based on their similarity to a given job description.
 
 The system uses **Natural Language Processing (NLP)** with **Sentence Transformers** to compute semantic similarity between resumes and job descriptions.
 
----
 ## Live Demo
 
 Streamlit App: https://hiredesk.streamlit.app/
 
-⭐ If you like this project, give it a star!
+⭐ If you like this project, please give it a star!
 
 ## Screenshots
 
@@ -24,7 +23,7 @@ Streamlit App: https://hiredesk.streamlit.app/
 
 <img width="1897" height="928" alt="image" src="https://github.com/user-attachments/assets/af2b1ef6-01e1-41b4-9751-68ee90b376fe" />
 
-## 🚀 Features
+## Features
 
 - Upload multiple resumes (.pdf or .docx)
 - Upload a job description
@@ -36,7 +35,7 @@ Streamlit App: https://hiredesk.streamlit.app/
 
 ---
 
-## 🧠 Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
@@ -47,7 +46,7 @@ Streamlit App: https://hiredesk.streamlit.app/
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 HireDesk
 
@@ -68,7 +67,7 @@ HireDesk
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository
 git clone https://github.com/JanaviPawar/HireDesk.git
@@ -90,7 +89,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1. The job description is converted into an embedding vector.
 2. Each resume is converted into an embedding vector.
@@ -99,7 +98,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Future Improvements
+## Future Improvements
 
 - Resume skill extraction
 - Automatic interview question generation
@@ -108,7 +107,7 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Janavi Pawar**
 
