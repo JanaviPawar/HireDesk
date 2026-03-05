@@ -1,0 +1,8 @@
+Job Title: Data Analyst
+
+We are looking for a Data Analyst proficient in Python, SQL, and data analysis, aws.
+The candidate should have experience with c, java,javascript,html,css and ui/ux or figma.
+Good understanding of machine learning basics is a plus.
+Oracle, DB2, SQL Server, MySQL, RDBMS, PostgressSql.
+ No SQL Data Bases like MongoDB, Cassandra
+
