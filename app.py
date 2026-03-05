@@ -3,13 +3,14 @@ import os
 from resume_matcher import calculate_similarity, load_resume_text
 import zipfile
 from io import BytesIO
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForQuestionAnswering
 
 # Initialize QA model
 @st.cache_resource
 def load_qa_model():
-    return pipeline("question-answering", model="distilbert-base-cased-distilled-squad")
-
+    tokenizer = AutoTokenizer.from_pretrained("distilbert-base-cased-distilled-squad")
+    model = AutoModelForQuestionAnswering.from_pretrained("distilbert-base-cased-distilled-squad")
+    return pipeline("question-answering", model=model, tokenizer=tokenizer)
 qa_model = load_qa_model()
 
 # Page setup
