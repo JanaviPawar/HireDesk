@@ -5,6 +5,24 @@ HireDesk is an AI-powered resume screening tool that ranks resumes based on thei
 The system uses **Natural Language Processing (NLP)** with **Sentence Transformers** to compute semantic similarity between resumes and job descriptions.
 
 ---
+## Live Demo
+
+Streamlit App: https://hiredesk.streamlit.app/
+
+⭐ If you like this project, give it a star!
+
+## Screenshots
+
+### Home Page
+
+<img width="1919" height="958" alt="image" src="https://github.com/user-attachments/assets/12a787ba-8198-4cba-b591-3b431fd76b9b" />
+
+
+### Resume Match Result
+
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/8468a668-42e0-44ca-80ba-fef367580cf4" />
+
+<img width="1897" height="928" alt="image" src="https://github.com/user-attachments/assets/af2b1ef6-01e1-41b4-9751-68ee90b376fe" />
 
 ## 🚀 Features
 
@@ -32,12 +50,19 @@ The system uses **Natural Language Processing (NLP)** with **Sentence Transforme
 ## 📂 Project Structure
 
 HireDesk
+
 │
+
 ├── app.py
+
 ├── resume_matcher.py
+
 ├── utils.py
+
 ├── sample_job_description.txt
+
 ├── sample_resumes
+
 └── README.md
 
 
